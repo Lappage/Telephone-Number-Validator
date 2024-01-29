@@ -3,7 +3,31 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Telephone Number Validator</title>
   </head>
-  <body></body>
+  <main>
+    <h1 id="title">Telephone Number Validator</h1>
+    <div class="phone">
+      <div class="screen">
+        <div class="camera"></div>
+        <div class="input">
+          <p>Enter a US Phone Number:</p>
+          <input type="text" id="user-input" />
+        </div>
+        <div class="results" id="results-div"></div>
+      </div>
+    </div>
+    <div class="buttons-container">
+      <button class="button" id="check-btn">Check</button>
+      <button class="button" id="clear-btn">Reset</button>
+    </div>
+  </main>
+
+  <body>
+    <footer>
+      <p>This project is open source. <a href="https://github.com/Lappage/Telephone-Number-Validator" target="_blank">Improve this page.</a></p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
 </html>

@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+body {
+  background-color: #2f2f2f;
+  cursor: default;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+h1 {
+  position: relative;
+  bottom: 60px;
+  color: #f4f4f5;
+  font-size: 4rem;
+  text-align: center;
+  font-weight: 200;
+  letter-spacing: -0.025em;
+  cursor: default;
+}
+
+.phone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  width: 350px;
+  height: 600px;
+  border-radius: 35px;
+  font-size: 1.1rem;
+}
+
+.screen {
+  display: flex;
+  flex-direction: column;
+  background-color: #fcfcfc;
+  width: 325px;
+  height: 575px;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.camera {
+  background-color: black;
+  width: 10px;
+  height: 10px;
+  margin: 10px auto;
+  border-radius: 50%;
+}
+
+.results {
+  font-weight: bold;
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin: 10px 0 25px 0;
+}
+
+.valid {
+  color: rgb(15, 180, 37);
+}
+
+.invalid {
+  color: rgb(238, 35, 35);
+}
+
+.input {
+  margin-bottom: 10px;
+}
+
+#user-input {
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.buttons-container {
+  position: relative;
+  top: 20px;
+}
+
+.button {
+  margin: 10px 10px 20px 10px;
+  font-size: 1.1rem;
+  text-align: center;
+  background-color: #edda6d;
+  padding: 4px 15px;
+  margin-left: 5px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #e9e6d3;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  height: 75px;
+  color: grey;
+}
+
+a {
+  color: #6d95ed;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 458px) {
+  h1 {
+    font-size: 2rem;
+  }
+}
