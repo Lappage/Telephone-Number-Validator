@@ -24,11 +24,11 @@ const checkNumber = () => {
 
   if (phoneRegex.test(input)) {
     results.innerHTML += `
-    <p class="valid"> Valid US Number: <br> ${input} </p>`;
+    <p class="valid"> Valid US Number: <span>${input}</span> </p>`;
     textBox.value = "";
   } else {
     results.innerHTML += `
-    <p class="invalid"> Invalid US Number: <br> ${input.toUpperCase()} </p>`;
+    <p class="invalid"> Invalid US Number: <span>${input.toUpperCase()}</span> </p>`;
     textBox.value = "";
     results.scrollTop = results.scrollHeight;
   }
